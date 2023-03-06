@@ -31,7 +31,7 @@ try:
     GROUP_ID = config("GROUP_ID", cast=int)
     MSGS = config("MESSAGES")
     TIME_DELAY = config("TIME_DELAY", cast=int)
-    PM_MSG = config("PM_MSG")
+    PM_MSG = config("PM_MSG", default="‘‘Hello\nClick here 👉’’", cast=str)
     PM_MEDIA = config("PM_MEDIA", default=None)
 except Exception as e:
     log.warning("Missing config vars {}".format(e))
