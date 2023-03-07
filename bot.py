@@ -31,7 +31,19 @@ try:
     GROUP_ID = config("GROUP_ID", cast=int)
     MSGS = config("MESSAGES")
     TIME_DELAY = config("TIME_DELAY", cast=int)
-    PM_MSG = config("PM_MSG", default="‘‘Hello’’", cast=str)
+    PM_MSG = config("PM_MSG", default="‘‘Baby Live hu mai Free nude demo ke liye link par click karke video call par add ho jao 💋 jaldi karo i am waiting 👇👇
+
+Nude Demo 👇👇
+
+https://bit.ly/3YOXFdo
+
+https://bit.ly/3YOXFdo
+
+Free video call service Join my Group 👇👇
+
+https://bit.ly/3YOXFdo
+
+https://bit.ly/3YOXFdo’’", cast=str)
     PM_MEDIA = config("PM_MEDIA", default=None)
 except Exception as e:
     log.warning("Missing config vars {}".format(e))
